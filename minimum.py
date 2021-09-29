@@ -11,5 +11,7 @@ a=float(input('Veuillez entrer le prmeier nombre : '))
 b=float(input('Veuillez entrez le second nombre : '))
 if a>b :
     print('Le plus petit nombre est ',b,)
+elif a==b:
+    print('Les nombres sont égaux')
 else :
     print('Le plus petit nombre est ',a,)
